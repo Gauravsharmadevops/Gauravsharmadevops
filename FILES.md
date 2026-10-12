@@ -1,7 +1,6 @@
-# File map
-
-- `README.md` — rendered profile, with the single connected SVG design.
-- `assets/engineering-profile.svg` — full profile graphic and subtle animation.
-- `.github/workflows/snake.yml` — contribution-snake automation.
-- `sections/` — plain Markdown source notes for editing content.
-- `SETUP.md` — setup and publishing instructions.
+# Package contents
+- `README.md` — integrated profile with distinct spaced sections
+- `assets/engineering-loop.gif` — looping terminal/pipeline animation
+- `assets/*.svg` — separate animated section cards
+- `.github/workflows/snake.yml` — contribution snake workflow
+- `sections/` — editable text sources for each section
