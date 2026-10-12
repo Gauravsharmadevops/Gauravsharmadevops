@@ -1,30 +1,14 @@
-# Setup Your GitHub Profile
+# Setup — Gaurav animated GitHub profile
 
-## 1. Put these files in your profile repository
-1. Sign in to GitHub.
-2. Open the repository named exactly `Gauravsharmadevops`. If it does not exist yet, create a **public** repository with that exact name (it must match your GitHub username).
-3. Upload all files and folders from this kit, preserving the folder structure.
-4. Commit the files to the `main` branch.
+1. Open your GitHub profile repository: `https://github.com/Gauravsharmadevops/Gauravsharmadevops`.
+2. Replace its root `README.md` with this folder `README.md`.
+3. Upload the entire `assets/` folder and `.github/workflows/snake.yml` (keep the paths exactly the same).
+4. Commit changes to `main`. Open **Actions → Generate contribution snake → Run workflow**.
+5. After the workflow succeeds, the snake should appear from the `output` branch.
+6. Edit the LinkedIn link in `README.md` and `assets/connect.svg` to your real LinkedIn URL. Add portfolio/email only if you want them public.
 
-## 2. Enable the animated contribution snake
-1. Open **Settings → Actions → General** in the repository.
-2. Under Workflow permissions, allow read and write permissions if required.
-3. Open **Actions**, choose **Generate contribution snake**, and select **Run workflow**.
-4. After a successful run, the `output` branch should contain the generated SVG.
-5. Refresh your profile.
-
-## 3. Personalize
-- Replace the LinkedIn placeholder with your real profile URL.
-- Add a public professional email only if you want it visible.
-- Replace planned project cards with repositories you have actually built.
-- Remove any technology icon you are not currently learning.
-
-## Notes
-- GitHub stats and technology icons use third-party services; their availability may change.
-- The contribution snake image appears only after the workflow succeeds.
-- This kit prepares profile files; it does not create or sign in to a GitHub account on your behalf.
-
-
-## Folder contents
-
-The `sections/` folder contains separate About, Tech Stack, Projects, Roadmap, and Contact files. Keep the folder structure when uploading.
+## Important
+- The profile repository must be **public**, named exactly `Gauravsharmadevops`, and contain `README.md` in its root.
+- GitHub README supports Markdown and a subset of HTML; it does not run arbitrary CSS or JavaScript. These section panels use SVG animations, which keep one consistent dark neon visual style while scrolling.
+- GitHub stats and contribution snake rely on external services; if a service is temporarily unavailable, the rest of the profile still renders.
+- Project cards are ideas/placeholders. Update them as you actually create those repositories; do not imply a project exists until you publish it.
