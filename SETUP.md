@@ -1,14 +1,30 @@
-# Setup — Gaurav animated GitHub profile
+# Setup — Gaurav Sharma Engineering Profile
 
-1. Open your GitHub profile repository: `https://github.com/Gauravsharmadevops/Gauravsharmadevops`.
-2. Replace its root `README.md` with this folder `README.md`.
-3. Upload the entire `assets/` folder and `.github/workflows/snake.yml` (keep the paths exactly the same).
-4. Commit changes to `main`. Open **Actions → Generate contribution snake → Run workflow**.
-5. After the workflow succeeds, the snake should appear from the `output` branch.
-6. Edit the LinkedIn link in `README.md` and `assets/connect.svg` to your real LinkedIn URL. Add portfolio/email only if you want them public.
+## 1. Use the correct repository
 
-## Important
-- The profile repository must be **public**, named exactly `Gauravsharmadevops`, and contain `README.md` in its root.
-- GitHub README supports Markdown and a subset of HTML; it does not run arbitrary CSS or JavaScript. These section panels use SVG animations, which keep one consistent dark neon visual style while scrolling.
-- GitHub stats and contribution snake rely on external services; if a service is temporarily unavailable, the rest of the profile still renders.
-- Project cards are ideas/placeholders. Update them as you actually create those repositories; do not imply a project exists until you publish it.
+Create or open the **public** repository named exactly `Gauravsharmadevops` under the account `Gauravsharmadevops`. GitHub only treats a repository as the profile README when the repository name matches the username.
+
+## 2. Upload files without changing their paths
+
+Upload these files/folders to the repository root:
+
+- `README.md`
+- `assets/engineering-profile.svg`
+- `.github/workflows/snake.yml`
+
+Commit the changes. The single integrated SVG is intentional: it makes the profile read as one connected design instead of a stack of unrelated panels.
+
+## 3. Enable the contribution animation
+
+Open **Settings → Actions → General** and ensure actions are allowed. The workflow needs `Contents: Read and write` permission (set in the YAML). Then open **Actions → Generate contribution snake → Run workflow**. The first run publishes the animation to the `output` branch. The README uses that generated file. If the workflow has not completed yet, the snake image will not appear immediately.
+
+## 4. Personalize before publishing
+
+- Edit `assets/engineering-profile.svg` to change the SVG's visible copy. Keep the SVG tags/IDs intact unless you know the impact.
+- Add a real LinkedIn or portfolio URL only when you are ready to share it; no invented contact links are included.
+- Project cards are labelled **planned builds** on purpose. Update the content after you have actually completed and pushed those projects.
+- The README says beginner/foundations explicitly; update your capability labels as your hands-on experience grows.
+
+## Notes
+
+GitHub profile READMEs support Markdown and images/GIFs. The main design is an SVG with subtle SVG-native animation, rather than JavaScript/CSS, which a README cannot run. Browser and GitHub rendering can differ slightly. Contribution-snake generation is provided by the open-source `Platane/snk` GitHub Action.

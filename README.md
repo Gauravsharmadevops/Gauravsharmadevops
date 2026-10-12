@@ -1,22 +1,32 @@
-<!-- Gaurav Sharma | cohesive animated DevOps profile -->
-<p align="center"><img src="./assets/hero.svg" width="100%" alt="Gaurav Sharma — Aspiring DevOps Engineer" /></p>
+<!--
+  Gaurav Sharma | Engineering Profile
+  Repository name must match the GitHub username: Gauravsharmadevops
+  Edit assets/engineering-profile.svg to change the visual profile.
+-->
 <p align="center">
-  <a href="https://github.com/Gauravsharmadevops"><img src="https://img.shields.io/badge/GitHub-Gauravsharmadevops-111827?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <img src="https://img.shields.io/badge/Focus-DevOps-00E5FF?style=for-the-badge" />
+  <img src="./assets/engineering-profile.svg" alt="Gaurav Sharma — aspiring DevOps engineer and BCA student. Profile, current focus, learning stack, planned projects, roadmap and engineering workflow." width="100%" />
 </p>
 
-<p align="center"><img src="./assets/about.svg" width="100%" alt="About Gaurav" /></p>
-<p align="center"><img src="./assets/focus.svg" width="100%" alt="Current focus" /></p>
-<p align="center"><img src="./assets/stack.svg" width="100%" alt="Tech stack and learning" /></p>
-<p align="center"><img src="./assets/roadmap.svg" width="100%" alt="DevOps learning roadmap" /></p>
-<p align="center"><img src="./assets/repos.svg" width="100%" alt="What I build" /></p>
-<p align="center"><img src="./assets/connect.svg" width="100%" alt="Connect with Gaurav" /></p>
-
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Gauravsharmadevops&show_icons=true&hide_border=true&bg_color=0B1020&title_color=67E8F9&text_color=D7E3F4&icon_color=A78BFA" height="160" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Gauravsharmadevops&hide_border=true&background=0B1020&ring=67E8F9&fire=A78BFA&currStreakLabel=67E8F9&sideLabels=D7E3F4&dates=8CA3B8" height="160" />
+  <a href="https://github.com/Gauravsharmadevops"><img src="https://img.shields.io/badge/GitHub-Gauravsharmadevops-161b22?style=flat-square&logo=github&logoColor=white" alt="GitHub profile" /></a>
+  <img src="https://img.shields.io/badge/Focus-DevOps-1f6feb?style=flat-square" alt="Current focus: DevOps" />
+  <img src="https://img.shields.io/badge/Approach-Learn%20by%20building-238636?style=flat-square" alt="Learn by building" />
 </p>
 
-<p align="center"><img src="https://raw.githubusercontent.com/Gauravsharmadevops/Gauravsharmadevops/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution snake animation" /></p>
-<p align="center"><img src="./assets/footer.svg" width="100%" alt="Keep learning, keep building" /></p>
+<p align="center">
+  <a href="https://github.com/Gauravsharmadevops?tab=repositories">Explore repositories</a>
+  &nbsp; · &nbsp;
+  <a href="https://github.com/Gauravsharmadevops?tab=projects">Learning projects</a>
+  &nbsp; · &nbsp;
+  <a href="https://github.com/Gauravsharmadevops">GitHub profile</a>
+</p>
+
+---
+
+<p align="center"><strong>CONTRIBUTION ACTIVITY</strong><br /><sub>Updates automatically after the contribution-snake workflow is enabled.</sub></p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Gauravsharmadevops/Gauravsharmadevops/output/github-snake-dark.svg" alt="Animated GitHub contribution snake" width="100%" />
+</p>
+
+<p align="center"><sub>Designed as one continuous engineering profile. Built with SVG animation and GitHub Actions; no JavaScript or injected CSS in the README.</sub></p>
